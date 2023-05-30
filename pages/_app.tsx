@@ -4,6 +4,9 @@ import '../global.css'
 
 import CartProvider from '@store/Cart'
 
+// 
+export const reportWebVitals = (metrics) => console.log(metrics)
+
 const MyApp = ({ Component, pageProps }: AppProps) => {
   // Aditional props
   // Aditional layout
